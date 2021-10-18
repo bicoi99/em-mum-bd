@@ -48,5 +48,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.querySelector(".card").addEventListener("click", () => {
+        document.querySelector(".back").classList.toggle("open");
+        document.querySelector(".front").classList.toggle("open");
+        document.querySelector(".flame").classList.toggle("open");
+      });
+    </script>
   </body>
 </html>
